@@ -33,8 +33,8 @@ To use the generated `.ffpkg` files on your console, you need:
 3.  **Crucial Step:** Place `PSFFPKG.exe` and `UFS2Tool.exe` in the **same folder**.
 
 The folder structure should look like this:
-text
-📂 UFS2Tool
+```text
+📂 MyFolder
  ├── 📄 PSFFPKG.exe
  ├── 📄 UFS2Tool.exe
  └── ...
