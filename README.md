@@ -38,7 +38,7 @@ The folder structure should look like this:
  ├── 📄 PSFFPKG.exe
  ├── 📄 UFS2Tool.exe
  └── ...
-
+```
 ---
 
 ## 🛠 Usage
