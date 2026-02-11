@@ -34,7 +34,7 @@ To use the generated `.ffpkg` files on your console, you need:
 
 The folder structure should look like this:
 ```text
-📂 MyFolder
+📂 UFS2Tool
  ├── 📄 PSFFPKG.exe
  ├── 📄 UFS2Tool.exe
  └── ...
