@@ -65,8 +65,11 @@ PSFFPKG.exe "C:\Games\CUSA12345" "D:\PS5_Packages"
 
 ## ⚙️ How It Works
 
-This tool calculates the total size of your input directory, adds a safety buffer (slack space), and runs the following command via `UFS2Tool`:
+This tool calculates the total size of your input directory, adds a safety buffer (slack space), and constructs the UFS2 image.
 
+The logic used to create the filesystem (block sizes and format) is based on the methodology documented by **earthonion** in the [mkufs2 repository](https://github.com/earthonion/mkufs2) for creating valid UFS images on FreeBSD.
+
+The tool executes the following command via `UFS2Tool`:
 bash
 UFS2Tool.exe newfs -O 2 -b 32768 -f 4096 -D "Input_Dir" "Temp_Image.img"
 
@@ -80,6 +83,7 @@ This tool is a wrapper and would not be possible without the hard work of the sc
 
 *   **[voidwhisper-ps](https://github.com/adel-ailane/ShadowMount):** Huge thanks for creating the **ShadowMount** payload and enabling UFS support on the PS5.
 *   **[SvenGDK](https://github.com/SvenGDK):** Special thanks for developing **UFS2Tool** for Windows, which handles the core filesystem creation.
+*   **[earthonion](https://github.com/earthonion/mkufs2):** For the research and documentation on creating UFS2 images for FreeBSD/PS5.
 
 ---
 
