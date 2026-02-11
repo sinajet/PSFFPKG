@@ -81,7 +81,7 @@ Once the process is complete, it renames the output to `.ffpkg` so it is ready f
 
 This tool is a wrapper and would not be possible without the hard work of the scene developers:
 
-*   **[voidwhisper-ps](https://github.com/adel-ailane/ShadowMount):** Huge thanks for creating the **ShadowMount** payload and enabling UFS support on the PS5.
+*   **[voidwhisper-ps](https://github.com/voidwhisper-ps):** Huge thanks for creating the **ShadowMount** payload and enabling UFS support on the PS5.
 *   **[SvenGDK](https://github.com/SvenGDK):** Special thanks for developing **UFS2Tool** for Windows, which handles the core filesystem creation.
 *   **[earthonion](https://github.com/earthonion/mkufs2):** For the research and documentation on creating UFS2 images for FreeBSD/PS5.
 
